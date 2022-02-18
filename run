@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+require('.')(require('yargs-parser')(process.argv.slice(2))).catch(
+  console.error
+)
